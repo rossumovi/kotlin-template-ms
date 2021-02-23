@@ -5,7 +5,7 @@ import com.benjaminsproule.swagger.gradleplugin.model.SecurityDefinitionExtensio
 import com.benjaminsproule.swagger.gradleplugin.model.TagExtension
 
 object Versions {
-    const val SWAGGER_VERSION = "2.9.2"
+    const val SWAGGER_VERSION = "3.0.0"
 }
 
 object Swagger {
@@ -19,7 +19,7 @@ object Swagger {
 }
 
 plugins{
-    id("com.benjaminsproule.swagger") version "1.0.8"
+    id("com.benjaminsproule.swagger") version "1.0.14"
     id ("io.swagger.swaggerhub") version "1.0.1"
 }
 
